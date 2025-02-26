@@ -1,50 +1,21 @@
-# Welcome to your Expo app 👋
+# Mobile frontend LafiseChallenge
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este proyecto forma parte del Mobile Frontend Challenge y está construido con Expo Router y otras tecnologías modernas para desarrollo en React Native.
+En este proyecto se desarrollaron 4 pantallas funcionales que muestran informacion traida directamente de una api.
+El objetivo era diseñar las pantallas acorde a la estructura presentada el dia que se envio el correo electronico, y que a su vez, fuesen funcionales.
 
-## Get started
+## Tecnologias
+- `NodeJs` (Se recomienda version 16 o superior)
+- `Npm`
+- `Axios` version 1.7.9
+- `Cors`  version 2.8.5
+- `react-hook-form` version 7.54.2
+- `react-i18next`   version 15.4.1
+Entre otras. 
+Todos los recursos se instalaran debidamente al momento de ejecutar el comando npm install
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Levantar el proyecto
+- Para hacer funcionar el proyecto deberemos de ubicarnos en  `cd /LafiseChallenge`.
+- Ejecutar `npm install` para descargar todas las dependencias.
+- **Antes de iniciar el proyecto hay que levantar la api** en otra terminal:  `cd /LafiseChallenge/mobile-frontend-challenge-mock ` y luego `npm run start-mock`.
+-Ir a directorio `/LafiseChallenge` y Ejecutar `npm run start`. 
